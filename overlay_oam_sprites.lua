@@ -1,8 +1,6 @@
 local OAMOffset = 0xFE00
 local LCDCRegisterOffset = 0xFF40
 
-local objSizeFlag = 4
-
 --- Draw a sprite overlay with slot number
 function drawSpriteLocation(x, y, spriteNumber, color, spriteHeight)
     if (x > 0 and y > 0 and x < 168 and y < 160) then
