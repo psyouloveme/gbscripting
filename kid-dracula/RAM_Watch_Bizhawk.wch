@@ -38,3 +38,7 @@ SystemID GB
 07C4	w	h	0	WRAM	
 C106	w	u	0	System Bus	
 C9c2	w	u	0	System Bus	
+DDA0	w	u	0	System Bus	update_DDA0_and_DDA2
+DDA2	w	u	0	System Bus	update_DDA0_and_DDA2
+COOF	w	u	0	System Bus	
+C006	w	u	0	System Bus	some_fn1
