@@ -23,6 +23,7 @@
 00:0068 .code:0087
 00:0100 .code:0004
 00:0150 .code:0049
+00:02EF level_fn_10
 00:031b .code:0006
 00:032b .code:0008
 00:0351 .code:0003
@@ -31,19 +32,140 @@
 00:04b7 .code:000e
 00:04cf .code:0031
 00:050b .code:0034
+00:06E8 level_fn_11
+00:090F some_fn24
+00:092E level_fn_12
+00:094F some_fn22
+00:095E some_fn22.entry0
+00:0973 some_fn23
+00:097C some_fn23.entry0
+00:098F some_fn21
+00:099D some_fn32
+00:09A6 some_fn33
+00:09D7 some_fn34
+00:09E5 some_fn35
+00:0A04 some_fn36
+00:0A0A some_fn37
+00:0A23 some_fn38
+00:0B7A level_fn_13
+00:0CFD level_fn_14
+00:0D47 level_fn_15
+00:0D64 level_fn_16
+00:146F level_fn_17
 00:160d .code:0004
 00:161b .code:00a8
+00:16CB level_fn_18
+00:1709 level_fn_19
+00:1725 level_fn_20
+00:1770 STORE_A_AT_HL_POP_TO_BC
+00:177F SET_$D-05_TO_A_$D-06_TO_01_$D-07_TO_01
+00:1788 SET_$D-06_TO_01
+00:178E level_fn_01
+00:1797 level_fn_02
+00:17A1 SET_$D-11_TO_1sC_OF_C_$D-12_TO_1sC_OF_B_AS_CARRY
+00:17AA SET_$D-0C_11_TO_C_$D-0D_12_TO_B
+00:17B0 .SET_$D-11_TO_C_$D-12_TO_B
+00:17B4 SET_$D-0C_TO_C_$D-0D_TO_B
+00:17B9 SET_$D-0C_TO_C_$D-0D_TO_B.use_bc_and_l
+00:17BE add_c_and_b_to_$d-0C
+00:17C0 .add_c_and_b_to_dl
+00:17C8 add_c_and_b_to_$d-11
+00:17CC read_$d-11_to_c_$d-12_to_b
+00:17D3 SET_C_TO_$D-0C_B_TO_$D-0D
+00:17DA CHECK_MSB_OF_$D-12
+00:17E0 CHECK_MSB_OF_$D-0D
+00:17F2 SET_LSB_OF_$D-0B_$D-10
+00:17FB SET_LSB_OF_$D-0B
+00:1801 UNSET_LSB_OF_$D-0B_$D-10
+00:180A UNSET_LSB_OF_$D-0B
+00:1810 SET_$D-10_$D-0B_TO_01
+00:181A SET_$D-14_B_$D-0F_C
+00:1822 SET_B_$D-14_C_$D-0F
+00:182A ADD_B_TO_$D-14_C_TO_$D-0F
+00:1836 ADD_$D-14_TO_B_$D-0F_TO_C
+00:1842 ADD_$D-14_TO_B_OR_1sC_B_$D-0F_TO_C
+00:18A6 SET_$D-07_TO_01
+00:18C1 RES_HL_BIT_4
+00:18C4 some_fn3(D_C962)
+00:18FC CHECK_BIT_5_OF_$D-07
+00:1944 some_fn27
+00:195A some_fn28
+00:195E some_fn29
+00:1966 SET_$D-19_TO_A
+00:196B SET_$D-18_TO_A
+00:1970 SET_$D-15_TO_01
+00:1974 SET_$D-15_TO_A
+00:1974 SET_$D-15_TO_A.entry0
+00:1A1B set_CAC7=C_CAC9=b
+00:1A1E set_hl=c_hl+2=b
+00:1A23 set_CAC0=c_CAC2=b
+00:1A23 set_hl_CAC0
+00:1ABA some_fn13
+00:1AD6 some_fn13.entry0
+00:1ADF some_fn13.if0
+00:1AEA some_fn13.endif0
+00:1AF6 some_fn10
+00:1AFB some_fn14
+00:1B03 some_fn11
+00:1B0D ADD_BIT7_TO_D-03_SET_H_D0
+00:1B16 SET_A_CBAC_&_08
+00:1B1C SET_A_CBAC_&_04
+00:1B32 some_fn16
+00:1B3F some_fn15
+00:1BD7 level_fn_03
 00:1e4d .code:0005
-00:1e68 .code:0045
+00:1e68 level_fn_4
 00:1eb5 .code:0014
 00:1ed1 .code:001e
+00:1EF8 GET_1SC_OF_C-1_WITH_B_CARRY
+00:1F07 1sC_A+ONE
+00:1F0A SET_B_TO_1sC_B_PLUS_ONE
 00:24ce .code:001d
+00:24CE some_fn19
+00:24DD some_fn20
 00:27c6 .code:0005
 00:2be9 .code:003c
+00:2C0B some_fn4
 00:2c49 .code:0005
 00:2c7d .code:0006
+00:2D0E some_fn18
+00:2D11 some_fn18.loop0
+00:2D15 some_fn18.loop1
+00:2D25 some_fn17
+00:2D49 some_fn17.entry0
 00:3015 .code:0012
 00:30ab .code:004e
+00:30F9 level_fn_05
+00:318B some_fn31
+00:3839 level_fn_06
+00:385A level_fn_07
+00:3A10 level_fn_08
+00:3AA7 some_fn0
+00:3AAC some_fn0.loop0
+00:3AE8 some_fn1_enemyRelated
+00:3B09 some_fn5
+00:3B3E move_HL_to_D3_HL+F0
+00:3B47 update_DDA0_and_DDA2
+00:3B99 some_fn3
+00:3BA3 some_fn3.entry0
+00:3BE6 some_fn3.entry1
+00:3BE9 SET_$DL_00
+00:3BF8 check_hitbox?
+00:3C1D check_hitbox?.do_damage?
+00:3C4B enemy_death_fn?
+00:3C59 load_bc-aora_ret
+00:3C59 POP_TO_BC_A_XOR_A
+00:3C5C some_fn6
+00:3C70 some_fn8
+00:3C88 some_fn9
+00:3C8B some_fn9.entry0
+00:3CAD some_fn26
+00:3CB0 some_fn26.entry0
+00:3CFC some_fn2
+00:3E9B level_fn_09
+00:4852 some_fn30
+00:485A some_fn30.entry0
+01:5036 some_fn7-high-level
 0d:4000 .code:0010
 0d:4022 .code:0031
 0e:4000 .code:0009
@@ -58,157 +180,302 @@
 0e:49e8 .code:0007
 0e:4b29 .code:00a0
 
-; end generated symbols
-
-00:18C1 RES_HL_BIT_4
-00:18C4 some_fn3(D_C962)
-00:1F07 1sC_A+ONE
-00:2C0B some_fn4
-00:3AA7 some_fn0
-00:3AAC some_fn0.loop0
-00:3AE8 some_fn1_enemyRelated
-00:3B09 some_fn5
-00:3B3E move_HL_to_D3_HL+F0
-00:3B47 update_DDA0_and_DDA2
-00:3B99 some_fn3
-00:3BA3 some_fn3.entry0
-00:3BE6 some_fn3.entry1
-00:3BE9 SET_$DL_00
-00:3BF8 check_hitbox?
-00:3C1D check_hitbox?.do_damage?
-00:3C59 load_bc-aora_ret
-00:3C5C some_fn6
-00:3CFC some_fn2
-01:5036 some_fn7-high-level
-00:3C70 some_fn8
-00:3C88 some_fn9
-00:3C8B some_fn9.entry0
-00:1AF6 some_fn10
-00:1B03 some_fn11
-00:1B0D ADD_BIT7_TO_D-03_SET_H_D0
-00:1ABA some_fn13
-00:1AD6 some_fn13.entry0
-00:1ADF some_fn13.if0
-00:1AEA some_fn13.endif0
-00:1AFB some_fn14
-00:1B16 SET_A_CBAC_&_08
-00:1B1C SET_A_CBAC_&_04
-00:1B3F some_fn15
-00:1B32 some_fn16
-00:3C4B enemy_death_fn?
-00:3C59 POP_TO_BC_A_XOR_A
-00:2D25 some_fn17
-00:2D49 some_fn17.entry0
-00:2D0E some_fn18
-00:2D11 some_fn18.loop0
-00:2D15 some_fn18.loop1
-00:24CE some_fn19
-00:24DD some_fn20
-00:098F some_fn21
-00:0937 some_fn22
-00:097C some_fn22.entry0
-00:094F some_fn23
-00:095E some_fn23.entry0
-00:090F some_fn24
-00:092E some_fn25
-00:3CAD some_fn26
-00:3CB0 some_fn26.entry0
-00:1801 UNSET_LSB_OF_$D-0B_$D-10
-00:180A UNSET_LSB_OF_$D-0B
-00:17FB SET_LSB_OF_$D-0B
-00:17F2 SET_LSB_OF_$D-0B_$D-10
-00:1810 SET_$D-10_$D-0B_TO_01
-00:181A SET_$D-14_B_$D-0F_C
-00:1822 SET_B_$D-14_C_$D-0F
-00:182A ADD_B_TO_$D-14_C_TO_$D-0F
-00:1836 ADD_$D-14_TO_B_$D-0F_TO_C
-00:18FC CHECK_BIT_5_OF_$D-07
-00:1F0A SET_B_TO_1sC_B_PLUS_ONE
-00:1842 ADD_$D-14_TO_B_OR_1sC_B_$D-0F_TO_C
-00:1770 STORE_A_AT_HL_POP_TO_BC
-00:1788 SET_$D-06_TO_01
-00:18A6 SET_$D-07_TO_01
-00:177F SET_$D-05_TO_A_$D-06_TO_01_$D-07_TO_01
-00:1944 some_fn27
-00:195A some_fn28
-00:195E some_fn29
-00:1966 SET_$D-19_TO_A
-00:196B SET_$D-18_TO_A
-00:1974 SET_$D-15_TO_A
-00:1974 SET_$D-15_TO_A.entry0
-00:1970 SET_$D-15_TO_01
-00:17DA CHECK_MSB_OF_$D-12
-00:17E0 CHECK_MSB_OF_$D-0D
-00:1EF8 GET_1SC_OF_C-1_WITH_B_CARRY
-00:17B4 SET_$D-0C_TO_C_$D-0D_TO_B
-00:17B9 SET_$D-0C_TO_C_$D-0D_TO_B.use_bc_and_l
-00:17AA SET_$D-0C_11_TO_C_$D-0D_12_TO_B
-00:17B0 .SET_$D-11_TO_C_$D-12_TO_B
-00:17A1 SET_$D-11_TO_1sC_OF_C_$D-12_TO_1sC_OF_B_AS_CARRY
-00:17D3 SET_C_TO_$D-0C_B_TO_$D-0D
-00:17BE add_c_and_b_to_$d-0C
-00:17C0 .add_c_and_b_to_dl
-00:17C8 add_c_and_b_to_$d-11
-00:17CC read_$d-11_to_c_$d-12_to_b
-00:178E level_fn_1
-00:1797 level_fn_2
-00:4852 some_fn30
-00:485A some_fn30.entry0
-00:1A23 set_hl_CAC0
-00:1A1B set_CAC7=C_CAC9=b
-00:1A1E set_hl=c_hl+2=b
-00:1A23 set_CAC0=c_CAC2=b
-
-
-
-
 ; Memory locations
 
+00:C006 var_04
+00:C00F var_03
+00:C018 var_33
+00:C8C0 var_27
 00:C8C1 curr_level
+00:C8C2 var_07
 00:C8C3 curr_lives
 00:C8C8 curr_energy
-00:C8CB curr_weapon
-00:CDC6 curr_coins
-
-00:DDA0 var_01
-00:DDA2 var_02
-00:C00F var_03
-00:C006 var_04
-00:CAA4 var_05
-00:CBAC var_06
-00:C8C2 var_07
-00:DDA1 var_08
-00:C9DA var_09
-00:CDCA var_10
-00:CDCB var_11
-00:CDBC var_12
-00:CDCE var_13
-00:CDBF var_14
-00:CDC0 var_15
-00:CDC9 var_16
-00:CDBD var_17
-00:CDC8 var_18
-00:CDE1 var_19
-00:C9C0 var_20
-00:CBBA var_21
-00:CAD4 var_22
-00:CAD5 var_23
-00:CBA0 var_24
-00:CBA3 var_25
-00:C9CF var_26
-00:C8C0 var_27
 00:C8CA var_28
-00:CAD3 var_29
-00:C9D1 var_30
-00:C9C3 var_31
+00:C8CB curr_weapon
 00:C8CE var_32
-00:C018 var_33
+00:C9C0 var_20
 00:C9C2 var_34
-00:CBA4 var_35
-00:D000 var_36
-00:D040 var_37
-00:CAC7 var_38
+00:C9C3 var_31
+00:C9CF var_26
+00:C9D1 var_30
+00:C9DA var_09
+00:CAA4 var_05
 00:CAC0 var_39
 00:CAC2 var_40
+00:CAC7 var_38
 00:CAC7 var_41
 00:CAC9 var_42
+00:CAD3 var_29
+00:CAD4 var_22
+00:CAD5 var_23
+00:CAD6 var_44
+00:CADE var_53
+00:CBA0 var_24
+00:CBA3 var_25
+00:CBA4 var_35
+00:CBA5 var_45
+00:CBAC var_06
+00:CBBA var_21
+00:CDBC var_12
+00:CDBD var_17
+00:CDBF var_14
+00:CDC0 var_15
+00:CDC6 curr_coins
+00:CDC8 var_18
+00:CDC9 var_16
+00:CDCA var_10
+00:CDCB var_11
+00:CDCE var_13
+00:CDE1 var_19
+00:D000 var_36
+00:D040 var_37
+00:DDA0 var_01
+00:DDA1 var_08
+00:DDA2 var_02
+00:DDA3 var_43
+00:DDA9 var_52
+00:DDB2 var_47
+00:DDB3 var_48
+00:DDB4 var_49
+00:DDB5 var_50
+00:DDB6 var_46
+00:DDB7 var_51
+
+; Generic GB/GBC Control Registers
+00:FF00 P1        ; Port P15-P10
+00:FF01 SB        ; Serial transfer register
+00:FF02 SC        ; Serial controller
+00:FF04 DIV       ; Divider
+00:FF05 TIMA      ; Timer
+00:FF06 TIMA      ; Timer modulo
+00:FF07 TAC       ; Timer control
+00:FF0F IF        ; Interrupt request flag
+00:FFFF IE        ; Interrupt enable flag
+; IME             ; Interrupt master enable
+00:FF40 LCDC      ; LCD Control 
+00:FF41 STAT      ; LCDC Status information
+00:FF42 SCY       ; Scroll Y register
+00:FF43 SCX       ; Scroll X register
+00:FF44 LY        ; LCDC y- coordinate
+00:FF45 LYC       ; LY compare register
+00:FF46 DMA       ; DMA transfer
+00:FF47 BGP       ; BG Palette Data
+00:FF48 OBP0      ; OBJ palette data 0
+00:FF49 OBP1      ; OBJ palette data 1
+00:FF4A WY        ; Window y- coordinate
+00:FF4B WX        ; Window X- coordinate
+; GBC Specific
+00:FF4D KEY1      ; GBC: CPU speed switching
+00:FF4F VBK       ; GBC: VRAM bank specification
+00:FF51 HDMA1     ; GBC: Higher-order address of HDMA transfer source
+00:FF52 HDMA2     ; GBC: Lower-order address of HDMA transfer source
+00:FF53 HDMA3     ; GBC: Higher-order address of HDMA transfer destination
+00:FF54 HDMA4     ; GBC: Lower-order address of HDMA transfer destination
+00:FF55 HDMA5     ; GBC: H-blank and general purpose DMA control
+00:FF56 RP        ; GBC: Infrared communication port
+00:FF68 BCPS      ; GBC: Color palette BG write specification
+00:FF69 BCPD      ; GBC: Color palette BG write data
+00:FF6A OCPS      ; GBC: Color palette OBJ write specification
+00:FF6B OCPD      ; GBC: Color palette OBJ write data
+00:FF70 SVBK      ; GBC: WRAM Bank specification
+
+; OAM - autogenerated with overlay_oam_sprites
+00:fe00 OBJ0_Y     ; OBJ0 LCD y- coordinate
+00:fe01 OBJ0_X     ; OBJ0 LCD x- coordinate
+00:fe02 OBJ0_CC    ; OBJ0 Character code
+00:fe03 OBJ0_ATTR  ; OBJ0 Attribute flag
+00:fe04 OBJ1_Y     ; OBJ1 LCD y- coordinate
+00:fe05 OBJ1_X     ; OBJ1 LCD x- coordinate
+00:fe06 OBJ1_CC    ; OBJ1 Character code
+00:fe07 OBJ1_ATTR  ; OBJ1 Attribute flag
+00:fe08 OBJ2_Y     ; OBJ2 LCD y- coordinate
+00:fe09 OBJ2_X     ; OBJ2 LCD x- coordinate
+00:fe0a OBJ2_CC    ; OBJ2 Character code
+00:fe0b OBJ2_ATTR  ; OBJ2 Attribute flag
+00:fe0c OBJ3_Y     ; OBJ3 LCD y- coordinate
+00:fe0d OBJ3_X     ; OBJ3 LCD x- coordinate
+00:fe0e OBJ3_CC    ; OBJ3 Character code
+00:fe0f OBJ3_ATTR  ; OBJ3 Attribute flag
+00:fe10 OBJ4_Y     ; OBJ4 LCD y- coordinate
+00:fe11 OBJ4_X     ; OBJ4 LCD x- coordinate
+00:fe12 OBJ4_CC    ; OBJ4 Character code
+00:fe13 OBJ4_ATTR  ; OBJ4 Attribute flag
+00:fe14 OBJ5_Y     ; OBJ5 LCD y- coordinate
+00:fe15 OBJ5_X     ; OBJ5 LCD x- coordinate
+00:fe16 OBJ5_CC    ; OBJ5 Character code
+00:fe17 OBJ5_ATTR  ; OBJ5 Attribute flag
+00:fe18 OBJ6_Y     ; OBJ6 LCD y- coordinate
+00:fe19 OBJ6_X     ; OBJ6 LCD x- coordinate
+00:fe1a OBJ6_CC    ; OBJ6 Character code
+00:fe1b OBJ6_ATTR  ; OBJ6 Attribute flag
+00:fe1c OBJ7_Y     ; OBJ7 LCD y- coordinate
+00:fe1d OBJ7_X     ; OBJ7 LCD x- coordinate
+00:fe1e OBJ7_CC    ; OBJ7 Character code
+00:fe1f OBJ7_ATTR  ; OBJ7 Attribute flag
+00:fe20 OBJ8_Y     ; OBJ8 LCD y- coordinate
+00:fe21 OBJ8_X     ; OBJ8 LCD x- coordinate
+00:fe22 OBJ8_CC    ; OBJ8 Character code
+00:fe23 OBJ8_ATTR  ; OBJ8 Attribute flag
+00:fe24 OBJ9_Y     ; OBJ9 LCD y- coordinate
+00:fe25 OBJ9_X     ; OBJ9 LCD x- coordinate
+00:fe26 OBJ9_CC    ; OBJ9 Character code
+00:fe27 OBJ9_ATTR  ; OBJ9 Attribute flag
+00:fe28 OBJ10_Y    ; OBJ10 LCD y- coordinate
+00:fe29 OBJ10_X    ; OBJ10 LCD x- coordinate
+00:fe2a OBJ10_CC   ; OBJ10 Character code
+00:fe2b OBJ10_ATTR ; OBJ10 Attribute flag
+00:fe2c OBJ11_Y    ; OBJ11 LCD y- coordinate
+00:fe2d OBJ11_X    ; OBJ11 LCD x- coordinate
+00:fe2e OBJ11_CC   ; OBJ11 Character code
+00:fe2f OBJ11_ATTR ; OBJ11 Attribute flag
+00:fe30 OBJ12_Y    ; OBJ12 LCD y- coordinate
+00:fe31 OBJ12_X    ; OBJ12 LCD x- coordinate
+00:fe32 OBJ12_CC   ; OBJ12 Character code
+00:fe33 OBJ12_ATTR ; OBJ12 Attribute flag
+00:fe34 OBJ13_Y    ; OBJ13 LCD y- coordinate
+00:fe35 OBJ13_X    ; OBJ13 LCD x- coordinate
+00:fe36 OBJ13_CC   ; OBJ13 Character code
+00:fe37 OBJ13_ATTR ; OBJ13 Attribute flag
+00:fe38 OBJ14_Y    ; OBJ14 LCD y- coordinate
+00:fe39 OBJ14_X    ; OBJ14 LCD x- coordinate
+00:fe3a OBJ14_CC   ; OBJ14 Character code
+00:fe3b OBJ14_ATTR ; OBJ14 Attribute flag
+00:fe3c OBJ15_Y    ; OBJ15 LCD y- coordinate
+00:fe3d OBJ15_X    ; OBJ15 LCD x- coordinate
+00:fe3e OBJ15_CC   ; OBJ15 Character code
+00:fe3f OBJ15_ATTR ; OBJ15 Attribute flag
+00:fe40 OBJ16_Y    ; OBJ16 LCD y- coordinate
+00:fe41 OBJ16_X    ; OBJ16 LCD x- coordinate
+00:fe42 OBJ16_CC   ; OBJ16 Character code
+00:fe43 OBJ16_ATTR ; OBJ16 Attribute flag
+00:fe44 OBJ17_Y    ; OBJ17 LCD y- coordinate
+00:fe45 OBJ17_X    ; OBJ17 LCD x- coordinate
+00:fe46 OBJ17_CC   ; OBJ17 Character code
+00:fe47 OBJ17_ATTR ; OBJ17 Attribute flag
+00:fe48 OBJ18_Y    ; OBJ18 LCD y- coordinate
+00:fe49 OBJ18_X    ; OBJ18 LCD x- coordinate
+00:fe4a OBJ18_CC   ; OBJ18 Character code
+00:fe4b OBJ18_ATTR ; OBJ18 Attribute flag
+00:fe4c OBJ19_Y    ; OBJ19 LCD y- coordinate
+00:fe4d OBJ19_X    ; OBJ19 LCD x- coordinate
+00:fe4e OBJ19_CC   ; OBJ19 Character code
+00:fe4f OBJ19_ATTR ; OBJ19 Attribute flag
+00:fe50 OBJ20_Y    ; OBJ20 LCD y- coordinate
+00:fe51 OBJ20_X    ; OBJ20 LCD x- coordinate
+00:fe52 OBJ20_CC   ; OBJ20 Character code
+00:fe53 OBJ20_ATTR ; OBJ20 Attribute flag
+00:fe54 OBJ21_Y    ; OBJ21 LCD y- coordinate
+00:fe55 OBJ21_X    ; OBJ21 LCD x- coordinate
+00:fe56 OBJ21_CC   ; OBJ21 Character code
+00:fe57 OBJ21_ATTR ; OBJ21 Attribute flag
+00:fe58 OBJ22_Y    ; OBJ22 LCD y- coordinate
+00:fe59 OBJ22_X    ; OBJ22 LCD x- coordinate
+00:fe5a OBJ22_CC   ; OBJ22 Character code
+00:fe5b OBJ22_ATTR ; OBJ22 Attribute flag
+00:fe5c OBJ23_Y    ; OBJ23 LCD y- coordinate
+00:fe5d OBJ23_X    ; OBJ23 LCD x- coordinate
+00:fe5e OBJ23_CC   ; OBJ23 Character code
+00:fe5f OBJ23_ATTR ; OBJ23 Attribute flag
+00:fe60 OBJ24_Y    ; OBJ24 LCD y- coordinate
+00:fe61 OBJ24_X    ; OBJ24 LCD x- coordinate
+00:fe62 OBJ24_CC   ; OBJ24 Character code
+00:fe63 OBJ24_ATTR ; OBJ24 Attribute flag
+00:fe64 OBJ25_Y    ; OBJ25 LCD y- coordinate
+00:fe65 OBJ25_X    ; OBJ25 LCD x- coordinate
+00:fe66 OBJ25_CC   ; OBJ25 Character code
+00:fe67 OBJ25_ATTR ; OBJ25 Attribute flag
+00:fe68 OBJ26_Y    ; OBJ26 LCD y- coordinate
+00:fe69 OBJ26_X    ; OBJ26 LCD x- coordinate
+00:fe6a OBJ26_CC   ; OBJ26 Character code
+00:fe6b OBJ26_ATTR ; OBJ26 Attribute flag
+00:fe6c OBJ27_Y    ; OBJ27 LCD y- coordinate
+00:fe6d OBJ27_X    ; OBJ27 LCD x- coordinate
+00:fe6e OBJ27_CC   ; OBJ27 Character code
+00:fe6f OBJ27_ATTR ; OBJ27 Attribute flag
+00:fe70 OBJ28_Y    ; OBJ28 LCD y- coordinate
+00:fe71 OBJ28_X    ; OBJ28 LCD x- coordinate
+00:fe72 OBJ28_CC   ; OBJ28 Character code
+00:fe73 OBJ28_ATTR ; OBJ28 Attribute flag
+00:fe74 OBJ29_Y    ; OBJ29 LCD y- coordinate
+00:fe75 OBJ29_X    ; OBJ29 LCD x- coordinate
+00:fe76 OBJ29_CC   ; OBJ29 Character code
+00:fe77 OBJ29_ATTR ; OBJ29 Attribute flag
+00:fe78 OBJ30_Y    ; OBJ30 LCD y- coordinate
+00:fe79 OBJ30_X    ; OBJ30 LCD x- coordinate
+00:fe7a OBJ30_CC   ; OBJ30 Character code
+00:fe7b OBJ30_ATTR ; OBJ30 Attribute flag
+00:fe7c OBJ31_Y    ; OBJ31 LCD y- coordinate
+00:fe7d OBJ31_X    ; OBJ31 LCD x- coordinate
+00:fe7e OBJ31_CC   ; OBJ31 Character code
+00:fe7f OBJ31_ATTR ; OBJ31 Attribute flag
+00:fe80 OBJ32_Y    ; OBJ32 LCD y- coordinate
+00:fe81 OBJ32_X    ; OBJ32 LCD x- coordinate
+00:fe82 OBJ32_CC   ; OBJ32 Character code
+00:fe83 OBJ32_ATTR ; OBJ32 Attribute flag
+00:fe84 OBJ33_Y    ; OBJ33 LCD y- coordinate
+00:fe85 OBJ33_X    ; OBJ33 LCD x- coordinate
+00:fe86 OBJ33_CC   ; OBJ33 Character code
+00:fe87 OBJ33_ATTR ; OBJ33 Attribute flag
+00:fe88 OBJ34_Y    ; OBJ34 LCD y- coordinate
+00:fe89 OBJ34_X    ; OBJ34 LCD x- coordinate
+00:fe8a OBJ34_CC   ; OBJ34 Character code
+00:fe8b OBJ34_ATTR ; OBJ34 Attribute flag
+00:fe8c OBJ35_Y    ; OBJ35 LCD y- coordinate
+00:fe8d OBJ35_X    ; OBJ35 LCD x- coordinate
+00:fe8e OBJ35_CC   ; OBJ35 Character code
+00:fe8f OBJ35_ATTR ; OBJ35 Attribute flag
+00:fe90 OBJ36_Y    ; OBJ36 LCD y- coordinate
+00:fe91 OBJ36_X    ; OBJ36 LCD x- coordinate
+00:fe92 OBJ36_CC   ; OBJ36 Character code
+00:fe93 OBJ36_ATTR ; OBJ36 Attribute flag
+00:fe94 OBJ37_Y    ; OBJ37 LCD y- coordinate
+00:fe95 OBJ37_X    ; OBJ37 LCD x- coordinate
+00:fe96 OBJ37_CC   ; OBJ37 Character code
+00:fe97 OBJ37_ATTR ; OBJ37 Attribute flag
+00:fe98 OBJ38_Y    ; OBJ38 LCD y- coordinate
+00:fe99 OBJ38_X    ; OBJ38 LCD x- coordinate
+00:fe9a OBJ38_CC   ; OBJ38 Character code
+00:fe9b OBJ38_ATTR ; OBJ38 Attribute flag
+00:fe9c OBJ39_Y    ; OBJ39 LCD y- coordinate
+00:fe9d OBJ39_X    ; OBJ39 LCD x- coordinate
+00:fe9e OBJ39_CC   ; OBJ39 Character code
+00:fe9f OBJ39_ATTR ; OBJ39 Attribute flag
+
+; Sound Registers
+00:FF10 NR10
+00:FF11 NR11 ; Duty cycle/sound length
+00:FF12 NR12 ; Envelope
+00:FF13 NR13 ; Lower-order frequency data
+00:FF14 NR14 ; Higher-order frequency data/other
+00:FF16 NR21 ; Duty cycle/sound length
+00:FF17 NR22 ; Envelope
+00:FF18 NR23 ; Lower-order frequency data
+00:FF19 NR24 ; Higher-order/other frequency data
+00:FF1A NR30 ; Sound OFF
+00:FF1B NR31 ; Sound length data
+00:FF1C NR32 ; Output level
+00:FF1D NR33 ; Lower-order frequency data
+00:FF1E NR34 ; Higher-order frequency data/other
+00:FF20 NR41 ; Sound length data
+00:FF21 NR42 ; Envelope
+00:FF22 NR43 ; Polynomial counter
+00:FF24 NR50 ; SO1/SO2 level
+00:FF25 NR51 ; Distribution to SO1/SO2
+00:FF26 NR52 ; Sound-end flag
+; Waveform RAM
+00:FF30 WFS0-1 ; Step 0 and Step 1
+00:FF31 WFS2-3 ; Step 2 and Step 3
+00:FF32 WFS4-5 ; Step 4 and Step 5
+00:FF33 WFS6-7 ; Step 4 and Step 5
+00:FF34 WFS8-9 ; Step 4 and Step 5
+00:FF35 WFS10-11 ; Step 4 and Step 5
+00:FF36 WFS12-13 ; Step 4 and Step 5
+00:FF37 WFS14-15 ; Step 4 and Step 5
+00:FF38 WFS16-17 ; Step 4 and Step 5
+00:FF39 WFS18-19 ; Step 4 and Step 5
+00:FF3A WFS20-21 ; Step 4 and Step 5
+00:FF3B WFS22-23 ; Step 4 and Step 5
+00:FF3C WFS24-25 ; Step 4 and Step 5
+00:FF3D WFS26-27 ; Step 4 and Step 5
+00:FF3E WFS28-29 ; Step 4 and Step 5
+00:FF3F WFS30-31 ; Step 4 and Step 5

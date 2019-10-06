@@ -1,5 +1,7 @@
 local OAMOffset = 0xFE00
 local LCDCRegisterOffset = 0xFF40
+local FirstLoop = true
+local enableOutput = false
 
 --- Draw a sprite overlay with slot number
 function drawSpriteLocation(x, y, spriteNumber, color, spriteHeight)
@@ -20,6 +22,12 @@ function getOAMAttrs(slot)
         local spriteX = memory.readbyte(spriteOffset + 1)
         local spriteTile = memory.readbyte(spriteOffset + 2)
         local spriteFlags = memory.readbyte(spriteOffset + 3)
+        if (enableOutput = true and FirstLoop == true) then
+            print("00:"..string.format("%x",spriteOffset)    .." OBJ"..slot.."_Y    ; OBJ"..slot.." LCD y- coordinate")
+            print("00:"..string.format("%x",spriteOffset + 1).." OBJ"..slot.."_X    ; OBJ"..slot.." LCD x- coordinate")
+            print("00:"..string.format("%x",spriteOffset + 2).." OBJ"..slot.."_CC   ; OBJ"..slot.." Character code")
+            print("00:"..string.format("%x",spriteOffset + 3).." OBJ"..slot.."_ATTR ; OBJ"..slot.." Attribute flag")    
+        end
         return spriteY, spriteX, spriteTile, spriteFlags
     end
 end
@@ -31,6 +39,7 @@ function drawOAMSprites(spriteHeight)
         local y, x, tile, flags = getOAMAttrs(i)
         drawSpriteLocation(x, y, i, color, spriteHeight)
     end
+    FirstLoop = false
 end
 
 
