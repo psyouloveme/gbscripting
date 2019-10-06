@@ -42,3 +42,5 @@ DDA0	w	u	0	System Bus	update_DDA0_and_DDA2
 DDA2	w	u	0	System Bus	update_DDA0_and_DDA2
 COOF	w	u	0	System Bus	
 C006	w	u	0	System Bus	some_fn1
+CAA4	w	u	0	System Bus	some_fn1
+CBAC	w	u	0	System Bus	some_fn1
