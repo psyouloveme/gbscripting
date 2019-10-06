@@ -1,0 +1,40 @@
+SystemID GB
+00C8C1	b	u	0	System Bus	Level (01-08)
+00C8C3	b	u	0	System Bus	Lives
+00C8C8	b	u	0	System Bus	Energy
+00E8C8	b	u	0	System Bus	Energy (Mirror)
+00CDA2	b	h	0	System Bus	Password 1st Digit
+00CDA2	d	h	0	System Bus	Password
+00C8C6	b	h	0	System Bus	Coins
+00E8C6	b	h	0	System Bus	Coins Mirror
+00C00F	b	u	0	System Bus	KD Y Pos
+00E00F	b	u	0	System Bus	KD Y Pos Mirror
+00C014	b	u	0	System Bus	KD X Pos
+00E014	b	u	0	System Bus	KD X Pos Mirror
+0	S	_	1		
+00D8	b	u	0	WRAM	Boss animation?
+00C604	w	u	0	System Bus	WITCH BOSS HEALTH
+0	S	_	1		
+009E48	w	u	0	System Bus	
+009E49	w	u	0	System Bus	
+009E4A	w	u	0	System Bus	
+009E4B	w	u	0	System Bus	
+00C002	w	u	0	System Bus	
+00CB9F	w	u	0	System Bus	
+00CBA0	w	u	0	System Bus	
+00CBA1	w	u	0	System Bus	KD Head State
+00CBA1	b	u	0	System Bus	KD Head State 1b
+00C0C4	b	u	0	System Bus	
+00CBA6	w	u	0	System Bus	
+00CBA7	w	u	0	System Bus	
+0	S	_	1		
+0805	b	u	0	WRAM	World 2/4 Boss Phase 1/2/3 Health
+0605	b	u	0	WRAM	World 1/3 Boss Phase 1 Health
+0905	b	u	0	WRAM	World 3 Boss Phase 2 Health
+0B05	b	u	0	WRAM	World 8 Boss Health
+0614	b	u	0	WRAM	World 1 Boss X Pos
+0	S	_	1		
+08CB	b	u	0	WRAM	Weapon
+07C4	w	h	0	WRAM	
+C106	w	u	0	System Bus	
+C9c2	w	u	0	System Bus	

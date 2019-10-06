@@ -1,0 +1,12 @@
+00:18C1 RES_HL_BIT_4
+00:18C4 some_fn3(D_C962)
+00:2C0B macro1
+00:3AA7 some_fn0
+00:3AAC some_fn0.loop0
+00:3AE8 some_fn1
+00:3B09 some_mathy_fn
+00:3BE9 macro2
+00:3BF8 check_hitbox?
+00:3C1D do_damage?
+00:3C59 load_bc-aora_ret
+00:3CFC some_fn2
