@@ -22,7 +22,7 @@ function getOAMAttrs(slot)
         local spriteX = memory.readbyte(spriteOffset + 1)
         local spriteTile = memory.readbyte(spriteOffset + 2)
         local spriteFlags = memory.readbyte(spriteOffset + 3)
-        if (enableOutput = true and FirstLoop == true) then
+        if (enableOutput == true and FirstLoop == true) then
             print("00:"..string.format("%x",spriteOffset)    .." OBJ"..slot.."_Y    ; OBJ"..slot.." LCD y- coordinate")
             print("00:"..string.format("%x",spriteOffset + 1).." OBJ"..slot.."_X    ; OBJ"..slot.." LCD x- coordinate")
             print("00:"..string.format("%x",spriteOffset + 2).." OBJ"..slot.."_CC   ; OBJ"..slot.." Character code")

@@ -12,7 +12,157 @@ SystemID GB
 00C014	b	u	0	System Bus	KD X Pos
 00E014	b	u	0	System Bus	KD X Pos Mirror
 0	S	_	1		
-00D8	b	u	0	WRAM	Boss animation?
+00C9C6	b	b	0	System Bus	Controller state
+00C9C7	b	b	0	System Bus	Controller state diff
+0	S	_	1		
+00C000	b	u	0	System Bus	slot 1 
+00C001	b	u	0	System Bus	slot 1 
+00C002	b	u	0	System Bus	slot 1 
+00C003	b	u	0	System Bus	slot 1 
+00C004	b	u	0	System Bus	slot 1 
+00C005	b	u	0	System Bus	slot 1 
+00C006	b	u	0	System Bus	slot 1 
+00C007	b	u	0	System Bus	KD State - b5=left b4=blink b0=right
+00C008	b	u	0	System Bus	KD frame to show
+00C009	b	u	0	System Bus	slot 1 
+00C00A	b	u	0	System Bus	slot 1 
+00C00B	b	u	0	System Bus	slot 1 
+00C00C	b	u	0	System Bus	slot 1 
+00C00D	b	u	0	System Bus	slot 1 
+00C00E	b	u	0	System Bus	slot 1 
+00C00F	b	u	0	System Bus	slot 1 
+0	S	_	1		
+00C10C	b	u	0	System Bus	slot 2 
+00C10D	b	u	0	System Bus	slot 2 
+00C105	b	u	0	System Bus	slot 2 
+0	S	_	1		
+00C20C	b	u	0	System Bus	slot 3 
+00C20D	b	u	0	System Bus	slot 3 
+00C205	b	u	0	System Bus	slot 3 
+0	S	_	1		
+00C30C	b	u	0	System Bus	slot 4 
+00C30D	b	u	0	System Bus	slot 4 
+00C305	b	u	0	System Bus	slot 4 
+0	S	_	1		
+00C40C	b	u	0	System Bus	slot 4 
+00C40D	b	u	0	System Bus	slot 4 
+00C405	b	u	0	System Bus	slot 4 
+0	S	_	1		
+00C50C	b	u	0	System Bus	slot 5 
+00C50D	b	u	0	System Bus	slot 5 
+00C505	b	u	0	System Bus	slot 5 
+0	S	_	1		
+00C600	b	u	0	System Bus	slot 6 
+00C601	b	u	0	System Bus	slot 6 
+00C602	b	u	0	System Bus	slot 6 
+00C603	b	u	0	System Bus	slot 6 
+00C604	b	u	0	System Bus	slot 6 
+00C605	b	u	0	System Bus	slot 6 
+00C606	b	u	0	System Bus	slot 6 
+00C607	b	u	0	System Bus	slot 6 
+00C608	b	u	0	System Bus	slot 6 
+00C609	b	u	0	System Bus	slot 6 
+00C60A	b	u	0	System Bus	slot 6 
+00C60B	b	u	0	System Bus	slot 6 
+00C60C	b	u	0	System Bus	slot 6 
+00C60D	b	u	0	System Bus	slot 6 
+00C60E	b	u	0	System Bus	slot 6 
+00C60F	b	u	0	System Bus	slot 6 
+0	S	_	1		
+00C70C	b	u	0	System Bus	slot 7 
+00C70D	b	u	0	System Bus	slot 7 
+00C705	b	u	0	System Bus	slot 7 
+0	S	_	1		
+00C80C	b	u	0	System Bus	slot 8 
+00C80D	b	u	0	System Bus	slot 8 
+00C805	b	u	0	System Bus	slot 8 
+0	S	_	1		
+00C90C	b	u	0	System Bus	slot 9 
+00C90D	b	u	0	System Bus	slot 9 
+00C905	b	u	0	System Bus	slot 9 
+0	S	_	1		
+00CA0C	b	u	0	System Bus	slot A 
+00CA0D	b	u	0	System Bus	slot A 
+00CA05	b	u	0	System Bus	slot A 
+0	S	_	1		
+00CB0C	b	u	0	System Bus	slot B 
+00CB0D	b	u	0	System Bus	slot B 
+00CB05	b	u	0	System Bus	slot B 
+0	S	_	1		
+00CC0C	b	u	0	System Bus	slot c 
+00CC0D	b	u	0	System Bus	slot c 
+00CC05	b	u	0	System Bus	slot c 
+0	S	_	1		
+00CD0C	b	u	0	System Bus	slot d 
+00CD0D	b	u	0	System Bus	slot d 
+00CD05	b	u	0	System Bus	slot d 
+0	S	_	1		
+00CE0C	b	u	0	System Bus	slot e 
+00CE0D	b	u	0	System Bus	slot e 
+00CE05	b	u	0	System Bus	slot e 
+0	S	_	1		
+00CF0C	b	u	0	System Bus	slot f 
+00CF0D	b	u	0	System Bus	slot f 
+00CF05	b	u	0	System Bus	slot f 
+0	S	_	1		
+00D00C	b	u	0	System Bus	slot 10 
+00D00D	b	u	0	System Bus	slot 10 
+00D005	b	u	0	System Bus	slot 10 
+0	S	_	1		
+00D100	b	u	0	System Bus	slot 11 
+00D101	b	u	0	System Bus	slot 11 
+00D102	b	u	0	System Bus	slot 11 
+00D103	b	u	0	System Bus	slot 11 
+00D104	b	u	0	System Bus	slot 11 
+00D105	b	u	0	System Bus	slot 11 
+00D106	b	u	0	System Bus	slot 11 
+00D107	b	u	0	System Bus	slot 11 
+00D108	b	u	0	System Bus	slot 11 
+00D109	b	u	0	System Bus	slot 11 
+00D10A	b	u	0	System Bus	slot 11 
+00D10B	b	u	0	System Bus	slot 11 
+00D10C	b	u	0	System Bus	slot 11 
+00D10D	b	u	0	System Bus	slot 11 
+0	S	_	1		
+00D20C	b	u	0	System Bus	slot 12 
+00D20D	b	u	0	System Bus	slot 12 
+00D205	b	u	0	System Bus	slot 12 
+0	S	_	1		
+00D30C	b	u	0	System Bus	slot 13 
+00D30D	b	u	0	System Bus	slot 13 
+00D305	b	u	0	System Bus	slot 13 
+0	S	_	1		
+00D40C	b	u	0	System Bus	slot 14 
+00D40D	b	u	0	System Bus	slot 14 
+00D405	b	u	0	System Bus	slot 14 
+0	S	_	1		
+00D50C	b	u	0	System Bus	slot 15 
+00D50D	b	u	0	System Bus	slot 15 
+00D505	b	u	0	System Bus	slot 15 
+0	S	_	1		
+00C20C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C20D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C30C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C30D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C40C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C40D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C50C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C50D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C60C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C60D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C70C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C70D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C80C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C80D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C90D	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+00C90C	b	u	0	System Bus	World 2/4 Boss Phase 1/2/3 Health
+0	S	_	1		
+00C9C6	b	b	0	System Bus	Controller state
+00C9C7	b	b	0	System Bus	Controller state diff
+00C001	b	u	0	System Bus	Something interesting
+00C002	b	u	0	System Bus	Something fascinating
+0	S	_	1		
+00D8	b	u	0	WRAM	Boss animation
 00C604	w	u	0	System Bus	WITCH BOSS HEALTH
 0	S	_	1		
 009E48	w	u	0	System Bus	
@@ -34,13 +184,22 @@ SystemID GB
 0B05	b	u	0	WRAM	World 8 Boss Health
 0614	b	u	0	WRAM	World 1 Boss X Pos
 0	S	_	1		
+00C8C3	b	u	0	System Bus	kd attrs?
+00C8C4	b	u	0	System Bus	kd attrs?
+00C8C9	b	u	0	System Bus	kd attrs?
+00C8CA	b	u	0	System Bus	kd attrs?
+00C8C0	b	u	0	System Bus	kd attrs?
 08CB	b	u	0	WRAM	Weapon
 07C4	w	h	0	WRAM	
-C106	w	u	0	System Bus	
-C9c2	w	u	0	System Bus	
-DDA0	w	u	0	System Bus	update_DDA0_and_DDA2
-DDA2	w	u	0	System Bus	update_DDA0_and_DDA2
-COOF	w	u	0	System Bus	
-C006	w	u	0	System Bus	some_fn1
-CAA4	w	u	0	System Bus	some_fn1
-CBAC	w	u	0	System Bus	some_fn1
+00C106	w	u	0	System Bus	
+00C9C2	w	u	0	System Bus	
+00DDA0	b	u	0	System Bus	update_DDA0_and_DDA2
+00DDA2	b	u	0	System Bus	update_DDA0_and_DDA2
+00C006	w	u	0	System Bus	some_fn1
+00CAA4	w	u	0	System Bus	some_fn1
+00CBAC	w	u	0	System Bus	some_fn1
+00C700	b	u	0	System Bus	Something
+00C006	b	u	0	System Bus	something
+00DDA2	b	u	0	System Bus	something coo
+00DDA3	b	u	0	System Bus	
+
