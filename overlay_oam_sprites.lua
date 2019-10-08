@@ -3,7 +3,7 @@ local LCDCRegisterOffset = 0xFF40
 local FirstLoop = true
 local enableOutput = false
 
---- Draw a sprite overlay with slot number
+--- Draw a sprite overlay with slot number 
 function drawSpriteLocation(x, y, spriteNumber, color, spriteHeight)
     if (x > 0 and y > 0 and x < 168 and y < 160) then
         gui.drawText(x - 10, y - 16, spriteNumber, "red", 0x00000000, 8, nil, nil, "left", "top")
@@ -32,7 +32,7 @@ function getOAMAttrs(slot)
     end
 end
 
---- Draw an overlay on all of the 40 sprites stored in OAM
+--- Draw an overlay on all of the 40 sprites stored in OAM 
 function drawOAMSprites(spriteHeight)
     local color = 0x550000FF
     for i = 0, 39 do
