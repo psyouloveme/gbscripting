@@ -1,4 +1,10 @@
 SystemID GB
+00C7C3	b	u	0	System Bus	???
+00C0C0	b	u	0	System Bus	???
+00C7C7	b	u	0	System Bus	???
+00C7CF	b	u	0	System Bus	???
+00C7C8	b	u	0	System Bus	???
+
 00C8C1	b	u	0	System Bus	Level (01-08)
 00C8C3	b	u	0	System Bus	Lives
 00C8C8	b	u	0	System Bus	Energy
