@@ -97,9 +97,18 @@
 
 ; 00:1000
 00:146F level_fn_17
+00:1502 code_00A2
+00:1515 code_00A1
+00:151D code_009D
+00:1539 code_009E
+00:1541 code_009F
+00:154C code_00A0
+
 00:160d code_001A
 00:161b code_001B
+00:1645 code_00A3
 00:16CB level_fn_18
+00:16BE code_00A4
 00:1709 level_fn_19
 00:1725 level_fn_20
 00:174e code_005E
@@ -128,9 +137,9 @@
 00:1801 UNSET_LSB_OF_$D-0B_$D-10
 00:180A UNSET_LSB_OF_$D-0B
 00:1810 SET_$D-10_$D-0B_TO_01
-00:181A SET_$D-14_B_$D-0F_C
-00:1822 SET_B_$D-14_C_$D-0F
-00:182A ADD_B_TO_$D-14_C_TO_$D-0F
+00:181A Set_Object_$D_X_Y_Pos
+00:1822 Get_Object_$D_X_Y_Pos
+00:182A Add_To_Object_$D_X_Y_Pos
 00:1836 ADD_$D-14_TO_B_$D-0F_TO_C
 00:1842 ADD_$D-14_TO_B_OR_1sC_B_$D-0F_TO_C
 00:18A6 SET_$D-07_TO_01
@@ -165,8 +174,8 @@
 00:1A1E set_CAC7=C_CAC9=b.set_hl=c_hl+2=b
 00:1A23 set_CAC0=c_CAC2=b
 00:1A3D code_0065
-00:1A41 code_0066
-00:1A43 code_0066.entry0
+00:1A41 code_0065.entry0
+00:1A43 code_0065.entry1
 00:1A4D code_0067
 00:1A57 code_0068
 00:1A6C code_0069
@@ -243,6 +252,7 @@
 00:24DD code_002B
 00:27c6 code_002C
 00:2be9 code_002D
+00:2bff code_002D.entry0
 00:2C0B code_002E
 00:2c25 code_005D
 00:2c49 unload_title_kid_dracula
@@ -315,6 +325,8 @@
 ; 00:4000
 00:4852 code_003E
 00:485A code_003E.entry0
+00:49E2 code_0098
+00:49E5 code_0099
 
 ; 01:4000
 01:4000 code_003F
@@ -333,6 +345,11 @@
 
 ; 01:5000
 01:5036 code_0043-high-level
+
+; 02:58F2
+02:58F2 code_009A_moveup
+02:77B0 code_009B_moveup
+02:7EB6 code_009C_moveup
 
 ; 0D:4000
 0d:4000 code_0044
