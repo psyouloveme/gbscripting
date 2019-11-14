@@ -146,6 +146,14 @@ RST_08 00:0008
 00:1970 SET_$D-15_TO_01
 00:1974 SET_$D-15_TO_A
 00:1974 SET_$D-15_TO_A.entry0
+00:197A code_0090
+00:1983 code_0091
+00:198C code_0092
+00:1995 code_0093
+00:19A6 code_0094
+00:19B0 code_0095
+00:19C1 code_0096
+00:19CB code_0097
 00:19F9 INCREMENT_$D-02
 00:19FE SET_$D-01_TO_A
 00:1A03 SET_$D-02_TO_A
@@ -225,6 +233,13 @@ RST_08 00:0008
 00:1F0F TWOS_COMPLEMENT_C
 00:1F14 MULTIPLY_CBx3
 00:1F1F code_0078
+00:1F27 code_0078.jump0
+00:1F2D code_0078.jump1
+00:1F3B code_0078.jump2
+00:1F55 code_0078.jump3
+00:1F7F code_0079
+00:1F88 code_0079.jump0
+00:1F8B code_0079.entry0
 00:24ce code_0029
 00:24CE code_002A
 00:24DD code_002B
@@ -265,6 +280,7 @@ RST_08 00:0008
 00:3AAA code_0036.entry0
 00:3AAC code_0036.loop0
 00:3ABB code_0036.jump0
+00:3AC6 a_var???
 00:3AC7 code_0036.loop1
 00:3AE8 some_fn1_enemyRelated
 00:3AF5 some_fn1_enemyRelated.jump0
@@ -323,6 +339,10 @@ RST_08 00:0008
 0e:4123 code_004C
 0e:4132 code_004D
 0e:49d8 code_004E
+0e:49dc code_007A
+0e:49e2 code_007B
+0e:4A2B code_007C
+
 0e:49e8 code_004F
 0e:4b29 code_0050
 
@@ -338,6 +358,28 @@ RST_08 00:0008
 00:0F30 var_006_what?
 00:149D var_007_what?
 00:18E0 var_008_what?
+00:1868 code_007D
+00:186F code_007E
+00:1875 code_007F
+00:1884 code_0080
+00:1894 code_0081
+00:1897 code_0081.entry0
+00:18A1 code_0082
+00:18F3 code_0083
+00:1902 code_0084
+00:1908 code_0085
+00:191A code_0086
+00:1930 code_0087
+00:193C code_0088
+00:194C code_0089
+00:1955 code_008A
+00:197A code_008B
+00:1983 code_008C
+00:198C code_008D
+00:1995 code_008E
+00:19A6 code_008F
+
+
 00:20F0 var_009_what?
 
 00:2345 BANK_SWITCH
@@ -414,6 +456,8 @@ RST_08 00:0008
 00:CAD4 var_065
 00:CAD5 var_066
 00:CAD6 var_067
+00:CADB var_149
+
 00:CADE var_068
 00:CBA0 var_069
 
