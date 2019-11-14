@@ -73,7 +73,11 @@ RST_08 00:0008
 00:04b7 code_000D
 00:04cf code_000E
 00:050b read_controller
+00:053F initialize_attract_mode
+00:0545 initialize_attract_mode.entry0
+00:056C code_0079
 00:06E8 level_fn_11
+00:07EF code_007D
 00:090F code_000F
 00:092E level_fn_12
 00:094F code_0010
@@ -232,7 +236,7 @@ RST_08 00:0008
 00:2be9 code_002D
 00:2C0B code_002E
 00:2c25 code_005D
-00:2c49 code_002F
+00:2c49 unload_title_kid_dracula
 00:2C4E LOAD_ROM_BANK_FROM_STACK
 00:2C53 LOAD_ROM_BANK_01
 00:2C59 LOAD_ROM_BANK_02
@@ -256,6 +260,10 @@ RST_08 00:0008
 00:2D49 code_0032.entry0
 00:3015 code_0033
 00:30ab code_0034
+00:30BC code_007B
+00:30CA code_007C
+00:30D7 code_007D
+00:30F0 unload_title_castle
 00:30F9 level_fn_05
 00:318B code_0035
 00:3839 level_fn_06
@@ -314,7 +322,8 @@ RST_08 00:0008
 0d:4009 code_00444.loop0
 0d:4022 code_0045
 0d:4027 code_0045.entry0
-0e:4000 code_0046
+0e:4000 title_screen_countdown_loop
+0e:4006 title_screen_countdown_loop.loop0
 0e:4016 code_0047
 0e:40ab code_0048
 0e:40c1 code_0049
@@ -324,12 +333,12 @@ RST_08 00:0008
 0e:4132 code_004D
 0e:49d8 code_004E
 0e:49e8 code_004F
-0e:4b29 code_0050
+0e:4b29 title_screen_loop?
 
 
 ; Memory locations
-
-
+00:c1c0
+00:c1c1 
 00:00FA var_001_what?
 00:0818 var_002_what?
 00:08F4 var_003_what?
